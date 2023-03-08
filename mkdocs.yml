@@ -1,0 +1,72 @@
+site_name: The Common Lisp Cookbook
+site_url: https://lispcookbook.github.io/cl-cookbook/
+
+repo_name: LispCookbook/cl-cookbook
+repo_url: https://github.com/LispCookbook/cl-cookbook
+edit_uri: edit/main/docs/
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - lisp
+
+markdown_extensions:
+- tables
+- toc:
+    permalink: true
+- pymdownx.highlight
+- pymdownx.extra
+
+nav:
+    - Home: index.md
+    - Content: 
+      - arrays.md
+      - cl21.md
+      - clos.md
+      - CONTRIBUTING.md
+      - contributors.md
+      - databases.md
+      - data-structures.md
+      - dates_and_times.md
+      - debugging.md
+      - editor-support.md
+      - emacs-ide.md
+      - error_handling.md
+      - ffi.md
+      - files.md
+      - foreword.md
+      - functions.md
+      - getting-started.md
+      - gui.md
+      - index.md
+      - io.md
+      - iteration.md
+      - license.md
+      - lispworks.md
+      - macros.md
+      - misc.md
+      - numbers.md
+      - os.md
+      - packages.md
+      - pattern_matching.md
+      - performance.md
+      - process.md
+      - README.md
+      - regexp.md
+      - scripting.md
+      - sockets.md
+      - strings.md
+      - STYLEGUIDE.md
+      - systems.md
+      - testing.md
+      - type.md
+      - vscode-alive.md
+      - web.md
+      - web-scraping.md
+      - websockets.md
+      - win32.md
+      - windows.md
+
+plugins:
+- search
